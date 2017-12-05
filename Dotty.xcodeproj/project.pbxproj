@@ -14,6 +14,7 @@
 		CD43CBF01FCB8F07002DA8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD43CBEE1FCB8F07002DA8FA /* LaunchScreen.storyboard */; };
 		CD43CBFB1FCB8F07002DA8FA /* DottyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43CBFA1FCB8F07002DA8FA /* DottyTests.swift */; };
 		CD43CC061FCB8F08002DA8FA /* DottyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43CC051FCB8F08002DA8FA /* DottyUITests.swift */; };
+		CD43CC141FCE3837002DA8FA /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43CC131FCE3837002DA8FA /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD43CC011FCB8F08002DA8FA /* DottyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DottyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD43CC051FCB8F08002DA8FA /* DottyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottyUITests.swift; sourceTree = "<group>"; };
 		CD43CC071FCB8F08002DA8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD43CC131FCE3837002DA8FA /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CD43CBEC1FCB8F07002DA8FA /* Assets.xcassets */,
 				CD43CBEE1FCB8F07002DA8FA /* LaunchScreen.storyboard */,
 				CD43CBF11FCB8F07002DA8FA /* Info.plist */,
+				CD43CC131FCE3837002DA8FA /* QuestionViewController.swift */,
 			);
 			path = Dotty;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				CD43CBE81FCB8F07002DA8FA /* ViewController.swift in Sources */,
 				CD43CBE61FCB8F07002DA8FA /* AppDelegate.swift in Sources */,
+				CD43CC141FCE3837002DA8FA /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				CD43CC0C1FCB8F08002DA8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD43CC0D1FCB8F08002DA8FA /* Build configuration list for PBXNativeTarget "DottyTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				CD43CC0F1FCB8F08002DA8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD43CC101FCB8F08002DA8FA /* Build configuration list for PBXNativeTarget "DottyUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				CD43CC121FCB8F08002DA8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
